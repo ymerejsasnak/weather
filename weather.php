@@ -21,21 +21,20 @@
         <h1 class="text-center white">What's My Weather?</h1>
         <p class="lead text-center">Enter your location to find out.</p>
 
-        <form>
+        <form method="get">
           <div class="form-group">
-            <input type="text" class="form-control" name="city" id="city" placeholder="city name">
+            <input type="text" class="form-control" name="city" id="city" placeholder="(must be a valid city name)">
           </div>
           <div class="text-center">
-            <button class="btn btn-success btn-lg">Get my forecast</button>
+            <button id="get-weather" class="btn btn-success btn-lg">Get my forecast</button>
           </div>
         </form>
 
-
-
+        <div class="col-md-6 col-md-offset-3 alert alert-success">Success!</div>
+        
       </div>
+
     </div>
-
-
 
   </div>
   
